@@ -62,7 +62,7 @@ body {
     float: right;
   }
 
-.topnav needed {
+.topnav .needed {
   visibility: hidden;
 }
 
