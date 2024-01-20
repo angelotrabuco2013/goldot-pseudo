@@ -5,3 +5,12 @@ function getYear() {
     msg = '©Goldot ' + year;
     document.getElementById("someText").innerHTML = msg;
 }
+
+function togglePW() {
+    var x = document.getElementById("myPW");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+}
