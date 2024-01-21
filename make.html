@@ -17,27 +17,11 @@
           </div>
             <br>
 <div class="center">
-    <form id="create" action="#" method="get">
-    <label for="Instructions">Instructions:</label> <br>
-    <textarea id="Instructions" name="Instructions" rows="5" cols="40" placeholder="Add some Instructions for your new project."></textarea>
-    <br>
-    <textarea id="code" name="code" rows="7" cols="40" placeholder="Where the code goes."></textarea>
-    <br>
-<label for="type">Language:</label>
-    <select name="type">
-        <option value="html">Html</option>
-        <option value="js">Javascript</option>
-        <option value="java">Java</option>
-        <option value="python">Python</option>
-        <option value="cpp">C++</option>
-        <option value="php">PHP</option>
-        <option value="ruby">Ruby</option>
-        <option value="swift">Swift</option>
-    </select>
-    <br>
-    <br>
-    <input class="button" type="submit" value="Create">
-    </form>
+    <span id="content">
+<button class="button" onclick="createTopic()">New topic</button>
+<button class="button" onclick="createProject()">New project</button>
+</span>
 </div>
     </body>
+    <script src="makey.js"></script>
 </html>
