@@ -23,6 +23,6 @@ function createTopic() {
 
 function createProject() {
   var content;
-  content = '<h2>Uh oh! Looks like Goldot recieved an error!</h2><img src="images/Sad.png" alt="error"><br/><br/><a style="color: dodgerBlue;" href="make.html">Back</a>';
+  content = '<h2>Uh oh! Looks like Goldot recieved an error!</h2><img src="images/Sad.png" alt="error"><br/><br/><a style="color: dodgerBlue;" href="make.html">Back</a><br/><a style="color: dodgerBlue;" href="creator.html">Beta Editor</a>';
   document.getElementById("content").innerHTML = content;
 }
