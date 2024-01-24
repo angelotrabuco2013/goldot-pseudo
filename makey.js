@@ -31,5 +31,7 @@ function createProject() {
 
 function welcomeUser() {
   let username = document.getElementById('username').value;
-  document.getElementById("content").innerHTML = '<h2>Welcome to Goldot ' + username + '!</h2>';
+  if (username != '') {
+    document.getElementById("content").innerHTML = '<h2>Welcome to Goldot ' + username + '!</h2>';
+  }
 }
