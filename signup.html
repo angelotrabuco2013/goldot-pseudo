@@ -17,11 +17,12 @@
             <a class="right needed" href="mail.html"><img src="images/messages.png" alt="message" width="21" height="14"></a>
           </div>
 <div class="center">
+    <span id="content">
         <h2>Create a goldot account</h2>
         <br>
-<form id="signup" action="#" method="get">
+<form action="#" method="get">
     <label for="username">Username:</label>
-    <input type="username" placeholder="username" required="required"/>
+    <input type="username" id="username" placeholder="username" required="required"/>
     <br>
     <br>
     <label for="password">Password:</label>
@@ -37,12 +38,13 @@
     <input type="radio" name="gender" required="required"/>F
     <br>
     <br>
-    <input class="button" type="submit" type="submit" value="Submit"/>
+    <input class="button" type="submit" onclick="welcomeUser()" value="Submit"/>
     </form>
     <br>
     <p>Already have a account? <a style="color: dodgerBlue;" href="login.html">login</a><br/>
     Please agree to <a style="color: dodgerBlue;" href="privacy.html">our private policy</a></p>
     </div>
+</span>
     </body>
     <script src="makey.js"></script>
 </html>

@@ -1,3 +1,5 @@
+console.log('This is were we collect data and do tests on goldots devolopment')
+
 function getYear() {
     var msg;
     var year;
@@ -25,4 +27,9 @@ function createProject() {
   var content;
   content = '<h2>Uh oh! Looks like Goldot recieved an error!</h2><img src="images/Sad.png" alt="error"><br/><br/><a style="color: dodgerBlue;" href="make.html">Back</a>';
   document.getElementById("content").innerHTML = content;
+}
+
+function welcomeUser() {
+  let username = document.getElementById('username').value;
+  document.getElementById("content").innerHTML = '<h2>Welcome to Goldot ' + username + '!</h2>';
 }
