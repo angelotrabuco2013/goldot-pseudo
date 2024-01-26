@@ -25,7 +25,7 @@ function createTopic() {
 
 function createProject() {
   var content;
-  content = '<h2>Uh oh! Looks like Goldot recieved an error!</h2><img src="images/Sad.png" alt="error"><br/><br/><a style="color: dodgerBlue;" href="make.html">Back</a>';
+  content = '<h2>Uh oh! Looks like Goldot recieved an error!</h2><img src="images/Sad.png" alt="error">';
   document.getElementById("content").innerHTML = content;
 }
 
@@ -34,4 +34,10 @@ function welcomeUser() {
   if (username != '') {
     document.getElementById("content").innerHTML = '<h2>Welcome to Goldot ' + username + '!</h2>';
   }
+}
+
+function showMail() {
+  let user = 'TheRandomUser';
+  let msg = 'Hello! I love your content!';
+  document.getElementById('mail').innerHTML = '<div class="box"><h5>' + user + '</h5>' + msg +'</div>';
 }
