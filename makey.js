@@ -31,7 +31,9 @@ function createProject() {
 
 function welcomeUser() {
   let username = document.getElementById('username').value;
-  if (username != '') {
+    let username = document.getElementById('password').value;
+        let username = document.getElementById('email').value;
+  if (username != '' ,  password != '', email != '') {
     document.getElementById("content").innerHTML = '<h2>Welcome to Goldot ' + username + '!</h2>';
   }
 }
