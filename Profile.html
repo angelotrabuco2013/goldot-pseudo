@@ -5,22 +5,19 @@
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="shortcut icon" href="favicon.ico" type="image/png">
     </head>
-    <body>
+    <body onload="profile()">
         <div class="topnav">
-            <a href="index.html">Home</a>
-            <a href="explore.html">Website</a>
-            <a href="about.html">About</a>
-            <a href="signup.html">Signup</a>
-            <a class="needed" href="make.html">Create</a>
-            <a class="active right needed" href="Profile.html">My profile</a>
+            <a href="index.html">home</a>
+            <a href="explore.html">website</a>
+            <a href="about.html">about</a>
+            <a href="signup.html">signup</a>
+            <a class="needed" href="make.html">create</a>
+            <a class="active right needed" href="Profile.html">my profile</a>
             <a class="right needed" href="mail.html"><img src="images/messages.png" alt="message" width="21" height="14"></a>
           </div>
 <div class="center">
-        <h1>Users's profile</h1>
-        <img src="images/badges/Newbie.png" alt="newbie" title="Newbie achievement" width="50" height="40">
-        <img src="images/badges/Knight.png" alt="knight" title="Knight achievement" width="50" height="60">
-        <a href="badges.html"><img src="images/more.png" alt="more?" title="see more?" width="50" height="40"></a><br/>
-        <button class="button">follow</button>
+        <h1 id="title-header">User's profile</h1>
+        <img src="images/default.svg" id="pfp"><div style="margin-top: 15px;"><button class="button">follow</button></div>
 </div>
     </body>
     <script src="makey.js"></script>
