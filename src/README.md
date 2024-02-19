@@ -1,4 +1,4 @@
-## Please type this in the terminal
+## Src scripts
 
 ```ruby
 starting install goldot
