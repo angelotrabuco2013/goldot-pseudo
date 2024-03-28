@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Goldot - Control Panel</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/png">
+      <style>
+        a[soon] {
+    pointer-events: none;
+}
+      </style>
+      <script>
+        // From Stack Overflow
+        const objDate = new Date();
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+if (objDate !== 'Invalid Date' && !isNaN(objDate)) {
+  console.log(months[objDate.getMonth()] + ' ' + objDate.getDate() + ', ' + objDate.getFullYear())
+}
+  </script>
+    </head>
+    <body onload="getYear()">
+        <div class="topnav">
+            <a href="index.html">home</a>
+            <a href="explore.html">website</a>
+            <a class="active" href="about.html">about</a>
+            <a href="signup.html">signup</a>
+            <a href="make.html">create</a>
+            <a class="right" href="Profile.html">my profile</a>
+            <a class="right" href="mail.html"><img src="images/messages.png" alt="message" width="21" height="14"></a>
+          </div>
+<div class="center">
+        <h1>Control Panel</h1>
+<h2>Basic</h2>
+  <hr/>
+   <a style="color: dodgerBlue;" href="#" soon>Login Bypass (coming soon)</a>
+     <a style="color: dodgerBlue;" href="#" soon>Account Manager (coming soon)</a>
+       <a style="color: dodgerBlue;" href="#" soon>File Manager (coming soon)</a>
+       <a style="color: dodgerBlue;" href="#" soon>Private Uploads (coming soon)</a>
+       <a style="color: dodgerBlue;" href="#" soon>Send a private message (coming soon)</a>
+       <a style="color: dodgerBlue;" href="#" soon>Debugger (coming soon)</a>
+       <a style="color: dodgerBlue;" href="#" soon>New Uploader (coming soon)</a>
+  <h2>Advanced</h2>
+  <hr/>
+         <a style="color: dodgerBlue;" href="#" soon>Log Out (coming soon)</a>
+         <a style="color: dodgerBlue;" href="#" soon>Real Log In (coming soon)</a>
+  <br/>
+  <br/>
+           <a style="color: dodgerBlue;" href="javascript:history.back()">Back</a>
+</div>
+    </body>
+    <script src="makey.js"></script>
+</html>
